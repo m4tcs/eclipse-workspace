@@ -1,0 +1,5 @@
+//Decides whether the server name should be shown to players in the player list (DEFAULT = true)
+displayServerName: true
+
+//
+displaydeaths: true

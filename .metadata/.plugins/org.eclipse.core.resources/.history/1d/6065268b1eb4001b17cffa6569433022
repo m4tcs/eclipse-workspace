@@ -1,0 +1,50 @@
+package com.servebeer.quake;
+
+import java.io.File;
+
+import org.bukkit.GameMode;
+import org.bukkit.configuration.file.FileConfiguration;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.servebeer.quake.events.OnDeath;
+import com.servebeer.quake.events.OnPlayerJoin;
+import com.servebeer.quake.events.OnPlayerRespawn;
+
+public class Main extends JavaPlugin {
+	
+	FileConfiguration config = this.getConfig();
+	
+	public void onEnable()
+	{
+		if (!config.getBoolean("lifeLinked"))
+		{
+			this.getServer().setDefaultGameMode(GameMode.SURVIVAL);
+		}
+		configRegister();
+		getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
+		getServer().getPluginManager().registerEvents(new OnPlayerRespawn(), this);
+		getServer().getPluginManager().registerEvents(new OnDeath(), this);
+	}
+	
+	public void onDisable()
+	{
+		
+	}
+	
+	public void configRegister()
+	{
+		System.out.println("DEBUGGING: configRegister()");
+		if (config.getDouble("version") != 0.1)
+		{
+			System.out.println("Plugin outdated. Generating new config.yml.");
+			File f = new File(this.getDataFolder().getAbsolutePath()+"\\config.yml");
+			f.delete();
+			this.saveDefaultConfig();
+		}
+		else
+		{
+			this.saveDefaultConfig();
+		}
+	}
+}

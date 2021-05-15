@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.Art"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.Statistic.Type"/>
+    <fullyQualifiedTypeName name="org.bukkit.Color"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Event"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.Plugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.entity.PlayerDeathEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerJoin"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.events.OnDeath"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.Main"/>
+    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+    <fullyQualifiedTypeName name="org.bukkit.scheduler.BukkitRunnable"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+    <fullyQualifiedTypeName name="org.bukkit.Sound"/>
+    <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerRespawn"/>
+</qualifiedTypeNameHistroy>

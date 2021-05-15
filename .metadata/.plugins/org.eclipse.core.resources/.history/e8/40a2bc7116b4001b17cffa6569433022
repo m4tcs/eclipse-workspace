@@ -1,0 +1,19 @@
+# Any variables added to this config after its initialisation will not have updated comments.
+# If you wish to view new comments simply delete config.yml and use command /reload or restart the server.
+
+# Displays the string at customServerName in the player list, when set to true. (DEFAULT = "true")
+displayServerName: true
+
+# Displays a player's total deaths before their username in the player list. (DEFAULT = "true")
+# NOTE:: This value is capped at 9999.
+displayServerDeaths: true
+
+# Displays the desired string as a value in the player list header. (DEFAULT = "Whomst'd've Minecraft Server")
+# NOTE:: This value is only fetched if "displayServerName" is set to "true".
+customServerName: Whomst'd've Minecraft Server
+
+# Kills all players if one player dies, when set to true. (DEFAULT = "false")
+lifeLinked: false
+
+# Helps config.yml update. DO NOT CHANGE.
+version: 0.1

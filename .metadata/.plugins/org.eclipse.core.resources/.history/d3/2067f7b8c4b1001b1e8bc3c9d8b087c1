@@ -1,0 +1,3 @@
+name: matplugin
+main: com.servebeer.quake.Main
+version: 0.0.1

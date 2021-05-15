@@ -1,0 +1,38 @@
+package com.servebeer.quake;
+
+import org.bukkit.configuration.file.FileConfiguration;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.servebeer.quake.events.OnDeath;
+import com.servebeer.quake.events.OnPlayerJoin;
+import com.servebeer.quake.events.OnPlayerRespawn;
+
+public class Main extends JavaPlugin {
+	
+	FileConfiguration config = this.getConfig();
+	
+	public void onEnable()
+	{
+		this.saveDefaultConfig();
+		configRegister();
+		getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
+		getServer().getPluginManager().registerEvents(new OnPlayerRespawn(), this);
+		getServer().getPluginManager().registerEvents(new OnDeath(), this);
+	}
+	
+	public void onDisable()
+	{
+		
+	}
+	
+	public void configRegister()
+	{
+		if (config.getString("version") == "0.1")
+		{
+			System.out.println("#configRegister() RUN");
+			config.options().copyDefaults(true);
+			this.saveConfig();
+		}
+	}
+}

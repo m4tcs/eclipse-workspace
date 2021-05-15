@@ -1,0 +1,46 @@
+package com.servebeer.quake;
+
+import java.io.File;
+
+import org.bukkit.configuration.file.FileConfiguration;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.servebeer.quake.events.OnDeath;
+import com.servebeer.quake.events.OnPlayerJoin;
+import com.servebeer.quake.events.OnPlayerRespawn;
+
+public class Main extends JavaPlugin {
+	
+	FileConfiguration config = this.getConfig();
+	
+	public void onEnable()
+	{
+		configRegister();
+		getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
+		getServer().getPluginManager().registerEvents(new OnPlayerRespawn(), this);
+		getServer().getPluginManager().registerEvents(new OnDeath(), this);
+	}
+	
+	public void onDisable()
+	{
+		
+	}
+	
+	public void configRegister()
+	{
+		System.out.println("DEBUGGING: configRegister()");
+		System.out.println(config.getDouble("version"));
+		if (config.getDouble("version") != 0.2)
+		{
+			System.out.println("Plugin outdated. Generating new config.yml.");
+			File f = new File(this.getDataFolder().getAbsolutePath()+"\\config.yml");
+			f.delete();
+			this.saveDefaultConfig();
+		}
+		else
+		{
+			this.saveDefaultConfig();
+		}
+	}
+}

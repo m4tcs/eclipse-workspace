@@ -1,0 +1,21 @@
+# IF THE PLUGIN IS OUTDATED A NEW CONFIG.YML WILL BE CREATED, REMOVING ALL PREVIOUS EDITS TO THIS FILE.
+
+# Displays the string at customServerName in the player list, when set to true. (DEFAULT = "true")
+displayServerName: true
+
+# Displays a player's total deaths before their username in the player list. (DEFAULT = "true")
+# NOTE:: This value is capped at 9999.
+displayServerDeaths: true
+
+# Displays the desired string as a value in the player list header. (DEFAULT = "Whomst'd've Minecraft Server")
+# NOTE:: This value is only fetched if "displayServerName" is set to "true".
+customServerName: Whomst'd've Minecraft Server
+
+# Kills all players if one player dies, when set to true. (DEFAULT = "false")
+lifeLinked: false
+
+# Kills all players if one player dies, and then locks the world. (DEFAULT = "false")
+lifeLinkedHardcore: false
+
+# Helps config.yml update. DO NOT CHANGE.
+version: 0.11
