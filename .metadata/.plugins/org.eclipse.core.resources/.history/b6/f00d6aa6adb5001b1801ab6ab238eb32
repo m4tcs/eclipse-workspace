@@ -1,0 +1,37 @@
+package com.servebeer.quake.advancements;
+
+import org.bukkit.Material;
+
+import eu.endercentral.crazy_advancements.AdvancementDisplay;
+import eu.endercentral.crazy_advancements.AdvancementVisibility;
+
+public enum FirstNight {
+	
+	;
+
+	private final FirstNight parent;
+	private final Material icon;
+	private final String title, description;
+	private final boolean showToast, displayMessage;
+	private final AdvancementVisibility visibility;
+	
+	private FirstNight(Material icon, String title, String description, boolean showToast, boolean displayMessage, AdvancementVisibility visibility)
+	{
+		this.parent = parent;
+		this.icon = icon;
+		this.title = title;
+		this.description = description;
+		this.showToast = showToast;
+		this.displayMessage = displayMessage;
+		this.visibility = visibility;
+	}
+	
+	public Material getIcon() {
+		return icon;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	
+}

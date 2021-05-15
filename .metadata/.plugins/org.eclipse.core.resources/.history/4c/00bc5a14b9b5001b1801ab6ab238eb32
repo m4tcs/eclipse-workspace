@@ -1,0 +1,62 @@
+package com.servebeer.quake;
+
+import java.io.File;
+
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.plugin.java.JavaPlugin;
+import eu.endercentral.crazy_advancements.*;
+import eu.endercentral.crazy_advancements.manager.AdvancementManager;
+
+//import com.servebeer.quake.advancements.AdvancementBase;
+import com.servebeer.quake.events.OnDeath;
+
+public class Main extends JavaPlugin {
+	
+	FileConfiguration config = this.getConfig();
+	private static AdvancementManager manager;
+	
+	public void onEnable()
+	{
+		configRegister();
+		getServer().getPluginManager().registerEvents(new OnDeath(), this);
+		
+		//AdvancementBase.registerAdvancements();
+	}
+	
+	public void onDisable()
+	{
+		
+	}
+	
+	/*
+	@EventHandler
+	public void onChat(AsyncPlayerChatEvent event) {
+		advance(event.getPlayer(), AdvancementBase.CHAT.getAdvancement());
+	}
+	
+	public void advance(Player p, Advancement adv) {
+		int progress = manager.getCriteriaProgress(p, adv);
+		if (progress < adv.getCriteria()) {
+			manager.setCriteriaProgress(p, adv, progress + 1);
+		}
+	}
+	*/
+	public void configRegister()
+	{
+		System.out.println("DEBUGGING: configRegister()");
+		if (config.getDouble("version") != 1.0)
+		{
+			System.out.println("Plugin outdated. Generating new config.yml.");
+			File f = new File(this.getDataFolder().getAbsolutePath()+"\\config.yml");
+			f.delete();
+			this.saveDefaultConfig();
+		}
+		else
+		{
+			this.saveDefaultConfig();
+		}
+	}
+}

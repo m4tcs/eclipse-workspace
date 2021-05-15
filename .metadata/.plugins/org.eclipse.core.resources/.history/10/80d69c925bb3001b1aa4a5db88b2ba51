@@ -1,5 +1,0 @@
-package com.servebeer.quake.events;
-
-public class OnPlayerRespawn {
-
-}

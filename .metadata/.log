@@ -4264,3 +4264,1261 @@ Java Model Exception: Java Model Status [Unknown javadoc format for getPlugin(ja
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:09:02.154
 !MESSAGE Unknown javadoc format for getPlugin(java.lang.Class<T>) {key=Lorg/bukkit/plugin/java/JavaPlugin;.getPlugin<T:Lorg/bukkit/plugin/java/JavaPlugin;>(Ljava/lang/Class<TT;>;)TT;%<Lcom/servebeer/quake/Main;>} [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:31:50.159
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:31:50.159
+!MESSAGE Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:32:00.129
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:32:00.130
+!MESSAGE Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:02.513
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:02.513
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:04.508
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:04.508
+!MESSAGE Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:04.660
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:04.660
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:09.077
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:09.077
+!MESSAGE Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:09.560
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:09.560
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:16.392
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:16.392
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:42.122
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:42.122
+!MESSAGE Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:42.683
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Gate [in Gate.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:42.684
+!MESSAGE Unknown javadoc format for Gate [in Gate.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:44.821
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:44.821
+!MESSAGE Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:45.415
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Gate [in Gate.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:45.415
+!MESSAGE Unknown javadoc format for Gate [in Gate.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:45.956
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LongGrass [in LongGrass.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:45.956
+!MESSAGE Unknown javadoc format for LongGrass [in LongGrass.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:55.118
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EnderChest [in EnderChest.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:55.118
+!MESSAGE Unknown javadoc format for EnderChest [in EnderChest.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:37:55.978
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for PistonBaseMaterial [in PistonBaseMaterial.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:37:55.978
+!MESSAGE Unknown javadoc format for PistonBaseMaterial [in PistonBaseMaterial.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:38:04.722
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:38:04.722
+!MESSAGE Unknown javadoc format for Attachable [in Attachable.class [in org.bukkit.material [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:38:12.570
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:38:12.570
+!MESSAGE Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:38:12.787
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:38:12.787
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:39:19.512
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:39:19.512
+!MESSAGE Unknown javadoc format for GameMode [in GameMode.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:39:19.715
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:39:19.715
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:39:39.723
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:39:39.723
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:46:13.320
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:46:13.320
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:46:14.257
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GRANITE [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:46:14.257
+!MESSAGE Unknown javadoc format for GRANITE [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:46:16.680
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for GHAST_SPAWN_EGG [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:46:16.680
+!MESSAGE Unknown javadoc format for GHAST_SPAWN_EGG [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:46:17.181
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EGG [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:46:17.181
+!MESSAGE Unknown javadoc format for EGG [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:46:17.498
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EMERALD [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:46:17.498
+!MESSAGE Unknown javadoc format for EMERALD [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 19:53:31.193
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EMERALD {key=Lorg/bukkit/Material;.EMERALD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:146)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 19:53:31.193
+!MESSAGE Unknown javadoc format for EMERALD {key=Lorg/bukkit/Material;.EMERALD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:04:04.292
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [FirstNight(FirstNight, Material, String, String, float, float, boolean, boolean, AdvancementVisibility) [in AdvancementBase [in [Working copy] AdvancementBase.java [in com.servebeer.quake.advancements [in src [in LifeLinked]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:616)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:172)
+	at org.eclipse.jdt.internal.corext.util.JdtFlags.isPrivate(JdtFlags.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.isOverriddenMethod(JavaElementHyperlinkSuperImplementationDetector.java:57)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.addHyperlinks(JavaElementHyperlinkSuperImplementationDetector.java:44)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:128)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-15 20:04:04.292
+!MESSAGE FirstNight(FirstNight, Material, String, String, float, float, boolean, boolean, AdvancementVisibility) [in AdvancementBase [in [Working copy] AdvancementBase.java [in com.servebeer.quake.advancements [in src [in LifeLinked]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:04:04.293
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [FirstNight(FirstNight, Material, String, String, float, float, boolean, boolean, AdvancementVisibility) [in AdvancementBase [in [Working copy] AdvancementBase.java [in com.servebeer.quake.advancements [in src [in LifeLinked]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:616)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceMethod.getReturnType(SourceMethod.java:204)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector.addHyperlinks(JavaElementHyperlinkReturnTypeDetector.java:43)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:128)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-15 20:04:04.294
+!MESSAGE FirstNight(FirstNight, Material, String, String, float, float, boolean, boolean, AdvancementVisibility) [in AdvancementBase [in [Working copy] AdvancementBase.java [in com.servebeer.quake.advancements [in src [in LifeLinked]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:17:26.850
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:17:26.851
+!MESSAGE Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:17:26.854
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:17:26.854
+!MESSAGE Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:17:26.998
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:17:26.998
+!MESSAGE Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:17:27.123
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:17:27.123
+!MESSAGE Unknown javadoc format for Player [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:22:41.410
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:22:41.410
+!MESSAGE Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:22:41.706
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:22:41.707
+!MESSAGE Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:22:41.767
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:22:41.767
+!MESSAGE Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:22:41.851
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:22:41.851
+!MESSAGE Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:22:43.124
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:22:43.124
+!MESSAGE Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:31:22.873
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:31:22.873
+!MESSAGE Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:31:28.416
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:31:28.416
+!MESSAGE Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:31:30.900
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:31:30.900
+!MESSAGE Unknown javadoc format for Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:31:31.166
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:31:31.166
+!MESSAGE Unknown javadoc format for Material {key=Lorg/bukkit/Material;} [in Material.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:31:33.911
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Sound [in Sound.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:31:33.911
+!MESSAGE Unknown javadoc format for Sound [in Sound.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:32:02.957
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for PlayerRespawnEvent {key=Lorg/bukkit/event/player/PlayerRespawnEvent;} [in PlayerRespawnEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:32:02.958
+!MESSAGE Unknown javadoc format for PlayerRespawnEvent {key=Lorg/bukkit/event/player/PlayerRespawnEvent;} [in PlayerRespawnEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:32:03.958
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getConfig() {key=Lorg/bukkit/plugin/Plugin;.getConfig()Lorg/bukkit/configuration/file/FileConfiguration;} [in Plugin [in Plugin.class [in org.bukkit.plugin [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:32:03.958
+!MESSAGE Unknown javadoc format for getConfig() {key=Lorg/bukkit/plugin/Plugin;.getConfig()Lorg/bukkit/configuration/file/FileConfiguration;} [in Plugin [in Plugin.class [in org.bukkit.plugin [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:32:04.862
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for PlayerRespawnEvent {key=Lorg/bukkit/event/player/PlayerRespawnEvent;} [in PlayerRespawnEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:32:04.862
+!MESSAGE Unknown javadoc format for PlayerRespawnEvent {key=Lorg/bukkit/event/player/PlayerRespawnEvent;} [in PlayerRespawnEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:32:27.847
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:32:27.847
+!MESSAGE Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:32:28.182
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:32:28.182
+!MESSAGE Unknown javadoc format for BukkitRunnable {key=Lorg/bukkit/scheduler/BukkitRunnable;} [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 20:34:59.000
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getPlayer() [in PlayerEvent [in PlayerEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 20:34:59.001
+!MESSAGE Unknown javadoc format for getPlayer() [in PlayerEvent [in PlayerEvent.class [in org.bukkit.event.player [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:01:59.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:01:59.267
+!MESSAGE Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:01:59.502
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:01:59.502
+!MESSAGE Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:02:01.629
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:02:01.629
+!MESSAGE Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:02:02.012
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:02:02.012
+!MESSAGE Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:02:03.037
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for runTaskAsynchronously(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:02:03.037
+!MESSAGE Unknown javadoc format for runTaskAsynchronously(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:02:28.197
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getPlugin(java.lang.Class<T>) [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:02:28.197
+!MESSAGE Unknown javadoc format for getPlugin(java.lang.Class<T>) [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:03:23.571
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getPlugin(java.lang.Class<T>) {key=Lorg/bukkit/plugin/java/JavaPlugin;.getPlugin<T:Lorg/bukkit/plugin/java/JavaPlugin;>(Ljava/lang/Class<TT;>;)TT;%<Lcom/servebeer/quake/Main;>} [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:03:23.571
+!MESSAGE Unknown javadoc format for getPlugin(java.lang.Class<T>) {key=Lorg/bukkit/plugin/java/JavaPlugin;.getPlugin<T:Lorg/bukkit/plugin/java/JavaPlugin;>(Ljava/lang/Class<TT;>;)TT;%<Lcom/servebeer/quake/Main;>} [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:14.741
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:14.742
+!MESSAGE Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:15.303
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:15.303
+!MESSAGE Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:15.377
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:15.377
+!MESSAGE Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:16.360
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:16.360
+!MESSAGE Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:29.600
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:29.601
+!MESSAGE Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:09:31.707
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:09:31.707
+!MESSAGE Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:17.467
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:17.467
+!MESSAGE Unknown javadoc format for getAdvancement(org.bukkit.NamespacedKey) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:18.335
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAllowEnd() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:18.335
+!MESSAGE Unknown javadoc format for getAllowEnd() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:18.937
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAllowFlight() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:18.937
+!MESSAGE Unknown javadoc format for getAllowFlight() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:19.104
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAllowNether() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:19.104
+!MESSAGE Unknown javadoc format for getAllowNether() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:20.285
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:20.285
+!MESSAGE Unknown javadoc format for getOfflinePlayer(java.lang.String) [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:20.377
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:20.377
+!MESSAGE Unknown javadoc format for getOnlineMode() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:21.336
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:21.336
+!MESSAGE Unknown javadoc format for getOnlinePlayers() [in Bukkit [in Bukkit.class [in org.bukkit [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:45.379
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:45.379
+!MESSAGE Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:10:50.784
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1049)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:10:50.784
+!MESSAGE Unknown javadoc format for Player {key=Lorg/bukkit/entity/Player;} [in Player.class [in org.bukkit.entity [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:11:55.345
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:11:55.345
+!MESSAGE Unknown javadoc format for cancel() [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:11:55.721
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:11:55.721
+!MESSAGE Unknown javadoc format for runTask(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-05-15 21:11:56.338
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for runTaskAsynchronously(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:174)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:583)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-05-15 21:11:56.339
+!MESSAGE Unknown javadoc format for runTaskAsynchronously(org.bukkit.plugin.Plugin) [in BukkitRunnable [in BukkitRunnable.class [in org.bukkit.scheduler [in D:\Cool things\Minecraft Plugins\Spigot\Spigot-API\target\spigot-api-1.16.5-R0.1-SNAPSHOT-shaded.jar]]]]

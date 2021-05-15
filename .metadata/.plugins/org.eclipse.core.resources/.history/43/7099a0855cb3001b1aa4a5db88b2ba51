@@ -1,9 +1,0 @@
-displayServerName: true
-displayServerDeaths: true
-
-# Kills all players if one player dies, when set to true. (DEFAULT = false)
-lifeLinked: false
-
-# Displays the desired string as a value in the player list header. (DEFAULT = "Whomst'd've Minecraft Server").
-# NOTE:: This value is only fetched if "displayServerName" is set to "true".
-customServerName: "Whomst'd've Minecraft Server"

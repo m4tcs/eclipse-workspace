@@ -3,7 +3,6 @@ package com.servebeer.quake;
 import java.io.File;
 
 import org.bukkit.configuration.file.FileConfiguration;
-
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.servebeer.quake.events.OnDeath;

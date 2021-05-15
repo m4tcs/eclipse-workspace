@@ -1,7 +1,0 @@
-package com.servebeer.quake;
-
-import org.bukkit.entity;
-
-public class Deaths extends Player {
-
-}

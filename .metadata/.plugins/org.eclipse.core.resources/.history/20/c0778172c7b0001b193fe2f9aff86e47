@@ -1,7 +1,0 @@
-package com.servebeer.quake;
-
-import org.bukkit.plugin.java.*;
-
-public class Deaths extends Bukkit {
-
-}
