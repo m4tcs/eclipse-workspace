@@ -6,6 +6,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.servebeer.quake.commands.help;
 import com.servebeer.quake.events.OnPlayerJoin;
 import com.servebeer.quake.events.OnPlayerRespawn;
 
@@ -18,6 +19,7 @@ public class Main extends JavaPlugin {
 		configRegister();
 		getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
 		getServer().getPluginManager().registerEvents(new OnPlayerRespawn(), this);
+		this.getCommand("help").setExecutor(new help());
 	}
 	
 	public void onDisable()

@@ -1,11 +1,11 @@
 # IF THE PLUGIN IS OUTDATED A NEW CONFIG.YML WILL BE CREATED, REMOVING ALL PREVIOUS EDITS TO THIS FILE.
 
 # Kills all players if one player dies, when set to true. (DEFAULT = "false")
-lifeLinked: false
+life-linked: false
 
 # Kills all players if one player dies, and then locks the world. (DEFAULT = "false")
 # NOTE:: Takes priority over "lifeLinked".
-lifeLinkedHardcore: false
+life-linked-hardcore: false
 
 # Helps config.yml update. DO NOT CHANGE.
 version: 1.0

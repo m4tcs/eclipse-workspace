@@ -26,7 +26,7 @@ public class OnDeath implements Listener{
 		//Fetches console.
 		ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
 		
-		if (plugin.getServer().getDefaultGameMode() != GameMode.SPECTATOR && config.getBoolean("lifeLinkedHardcore"))
+		if (plugin.getServer().getDefaultGameMode() != GameMode.SPECTATOR && config.getBoolean("life-linked-hardcore"))
 		{
 			plugin.getServer().setDefaultGameMode(GameMode.SPECTATOR);
 			event.setDeathMessage(ChatColor.GOLD + event.getEntity().getName().toString() + " has died!");
@@ -52,7 +52,7 @@ public class OnDeath implements Listener{
 			}.runTaskLater(plugin, 40);
 		}
 		
-		if (config.getBoolean("lifeLinked") && !config.getBoolean("lifeLinkedHardcore") && plugin.getServer().getDefaultGameMode() != GameMode.ADVENTURE)
+		if (config.getBoolean("life-linked") && !config.getBoolean("life-linked-hardcore") && plugin.getServer().getDefaultGameMode() != GameMode.ADVENTURE)
 		{
 			plugin.getServer().setDefaultGameMode(GameMode.ADVENTURE);
 			event.setDeathMessage(ChatColor.GOLD + event.getEntity().getName().toString() + " has died!");

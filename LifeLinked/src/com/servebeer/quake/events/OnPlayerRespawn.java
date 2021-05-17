@@ -25,7 +25,7 @@ public class OnPlayerRespawn implements Listener {
 			@Override
 			public void run()
 			{
-				if (config.getBoolean("lifeLinked") || config.getBoolean("lifeLinkedHardcore"))
+				if (config.getBoolean("life-linked") || config.getBoolean("life-linked-hardcore"))
 				{
 					player.setGameMode(plugin.getServer().getDefaultGameMode());
 				}

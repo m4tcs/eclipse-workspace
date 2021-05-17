@@ -24,7 +24,7 @@ public class OnPlayerJoin implements Listener {
 		FileConfiguration config = plugin.getConfig();
 		
 		//Checks to see if config.yml wants deaths displayed in player list.
-		if (config.getBoolean("displayServerDeaths"))
+		if (config.getBoolean("display-server-deaths"))
 		{
 			System.out.println(player.getDisplayName() + "'s deaths are being displayed.");
 			
@@ -55,9 +55,9 @@ public class OnPlayerJoin implements Listener {
 		}
 		
 		//Checks to see if config.yml wants a custom server name displayed in player list.
-		if (config.getBoolean("displayServerName"))
+		if (config.getBoolean("display-server-name"))
 		{
-			player.setPlayerListHeader(config.getString("customServerName"));
+			player.setPlayerListHeader(config.getString("custom-server-name"));
 		}
 	}
 }

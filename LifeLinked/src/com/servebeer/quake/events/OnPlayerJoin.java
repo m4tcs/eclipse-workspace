@@ -21,7 +21,7 @@ public class OnPlayerJoin implements Listener {
 		Player player = event.getPlayer();
 		FileConfiguration config = plugin.getConfig();
 		
-		if (config.getBoolean("lifeLinked")  || config.getBoolean("lifeLinkedHardcore"))
+		if (config.getBoolean("life-linked")  || config.getBoolean("life-linked-hardcore"))
 		{
 			player.setGameMode(plugin.getServer().getDefaultGameMode());
 		}

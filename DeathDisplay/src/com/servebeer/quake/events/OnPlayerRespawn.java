@@ -28,7 +28,7 @@ public class OnPlayerRespawn implements Listener {
 			public void run() {
 				
 				//Checks to see if config.yml wants deaths displayed in player list.
-				if (config.getBoolean("displayServerDeaths"))
+				if (config.getBoolean("display-server-deaths"))
 				{
 					System.out.println(player.getDisplayName() + "'s deaths have been updated.");
 					
