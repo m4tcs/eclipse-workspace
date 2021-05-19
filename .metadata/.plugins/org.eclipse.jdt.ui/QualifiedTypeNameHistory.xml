@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="org.bukkit.Art"/>
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
     <fullyQualifiedTypeName name="org.bukkit.Statistic.Type"/>
-    <fullyQualifiedTypeName name="org.bukkit.Color"/>
     <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
     <fullyQualifiedTypeName name="org.bukkit.event.Event"/>
     <fullyQualifiedTypeName name="org.bukkit.plugin.Plugin"/>
@@ -14,7 +13,6 @@
     <fullyQualifiedTypeName name="com.servebeer.quake.events.OnDeath"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
     <fullyQualifiedTypeName name="org.bukkit.Sound"/>
     <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerRespawn"/>
@@ -33,4 +31,7 @@
     <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
     <fullyQualifiedTypeName name="org.bukkit.scheduler.BukkitRunnable"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.Main"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+    <fullyQualifiedTypeName name="org.bukkit.Color"/>
 </qualifiedTypeNameHistroy>

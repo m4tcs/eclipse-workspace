@@ -1,10 +1,13 @@
 package com.servebeer.quake.commands;
 
+import java.util.Map;
+import java.util.Map.Entry;
+
 import org.bukkit.command.*;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginDescriptionFile;
-
+import org.bukkit.ChatColor;
 import com.servebeer.quake.Main;
 
 public class help implements CommandExecutor{
@@ -18,12 +21,14 @@ public class help implements CommandExecutor{
 		if (sender instanceof Player)
 		{
 			Player player = (Player) sender;
-			player.sendMessage("Commands for DeathDisplay:");
-			for (Object comm : PDF.getCommands().entrySet())
+			player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "-----");
+			player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "Commands for DeathDisplay:");
+			for (Entry<String, Map<String, Object>> comm : PDF.getCommands().entrySet())
 			{
-				Command comma = (Command) comm;
-				player.sendMessage(comma.getLabel() + " - " + comma.getDescription());
+				String comma = comm.getKey();
+				player.sendMessage(ChatColor.GOLD + "  /" + comma);
 			}
+			player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "-----");
 			return true;
 		}
 		else
