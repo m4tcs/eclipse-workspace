@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="org.bukkit.event.Event"/>
     <fullyQualifiedTypeName name="org.bukkit.plugin.Plugin"/>
     <fullyQualifiedTypeName name="org.bukkit.event.entity.PlayerDeathEvent"/>
-    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerJoin"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.events.OnDeath"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -16,7 +15,6 @@
     <fullyQualifiedTypeName name="org.bukkit.Sound"/>
     <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerRespawn"/>
-    <fullyQualifiedTypeName name="org.bukkit.Material"/>
     <fullyQualifiedTypeName name="com.servebeer.quake.advancements.FirstNight"/>
     <fullyQualifiedTypeName name="eu.endercentral.crazy_advancements.Advancement"/>
     <fullyQualifiedTypeName name="eu.endercentral.crazy_advancements.NameKey"/>
@@ -51,4 +49,14 @@
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerBedEnterEvent"/>
     <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
     <fullyQualifiedTypeName name="org.bukkit.scheduler.BukkitRunnable"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerInteractEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.data.type.Bed"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.Bed"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.bukkit.Material"/>
+    <fullyQualifiedTypeName name="java.util.EnumSet"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerBlockInteract"/>
+    <fullyQualifiedTypeName name="com.servebeer.quake.events.OnPlayerEnterBed"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
 </qualifiedTypeNameHistroy>
