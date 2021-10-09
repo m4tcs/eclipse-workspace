@@ -2,8 +2,13 @@
 <section name="Workbench">
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.debug.ui.import.launchconfigurations"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.buildship.ui.importwizards"/>
+			<item value="org.eclipse.debug.ui"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
@@ -12,5 +17,7 @@
 		<item key="DIALOG_WIDTH" value="702"/>
 		<item key="DIALOG_HEIGHT" value="740"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

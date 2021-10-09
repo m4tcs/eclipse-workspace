@@ -9,6 +9,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
 import org.bukkit.Statistic;
+import org.bukkit.World;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.*;
 
@@ -22,6 +23,9 @@ public class OnPlayerJoin implements Listener {
 		//Assigns fields.
 		Player player = event.getPlayer();
 		FileConfiguration config = plugin.getConfig();
+		
+		World playerDimension = player.getWorld();
+		System.out.println(playerDimension);
 		
 		//Checks to see if config.yml wants deaths displayed in player list.
 		if (config.getBoolean("display-server-deaths"))
