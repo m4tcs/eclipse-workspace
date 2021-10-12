@@ -1,32 +1,5 @@
 # IF THE PLUGIN IS OUTDATED A NEW CONFIG.YML WILL BE CREATED, REMOVING ALL PREVIOUS EDITS TO THIS FILE.
-#
-# -----
-#
-# Displays the string at "customServerName" in the player list, when set to true.
-#
-# display-server-name: true
-#
-# -----
-#
-# Displays a player's total deaths before their username in the player list.
-# NOTE:: This value is capped at 9999.
-#
-# display-server-deaths: true
-#
-# -----
-#
-# Displays the desired string as a value in the player list header.
-# NOTE:: This value is only fetched if "displayServerName" is set to "true".
-#
-# custom-server-name: Whomst'd've Minecraft Server
-#
-# -----
-#
-# Helps config.yml update. DO NOT CHANGE.
-#
-# version: 1.2
 display-server-name: true
 display-server-deaths: true
 custom-server-name: Whomst'd've Minecraft Server
-allow-night-skip: true
-version: 1.2
+version: 1.3

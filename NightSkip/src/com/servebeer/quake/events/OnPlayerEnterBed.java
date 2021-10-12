@@ -1,7 +1,10 @@
 package com.servebeer.quake.events;
 
+import org.bukkit.Bukkit;
+import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.plugin.Plugin;
@@ -13,10 +16,23 @@ public class OnPlayerEnterBed implements Listener {
 	
 	private Plugin plugin = Main.getPlugin(Main.class);
 	FileConfiguration config = plugin.getConfig();
+	ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
+	private boolean isSkipped = false;
 	
+	@EventHandler
 	public void onPlayerEnterBed(PlayerBedEnterEvent event) {
 		Player player = event.getPlayer();
-		System.out.println(player.getDisplayName() + " is sleeping");
+		
+		new BukkitRunnable() {
+
+			@Override
+			public void run() {
+				if (player.isSleeping()) {
+					Bukkit.broadcastMessage(player.getDisplayName() + " is sleeping.");
+					System.out.println("[NightSkip] " + player.getDisplayName() + " is sleeping.");
+				}
+			}
+		}.runTaskLater(plugin, 2);
 		
 		new BukkitRunnable() {
 
@@ -24,9 +40,8 @@ public class OnPlayerEnterBed implements Listener {
 			public void run() {
 				if (player.isSleeping() && config.getBoolean("allow-night-skip")) {
 					player.getWorld().setTime(23999);
-					System.out.println("time should be changed");
+					isSkipped = true;
 				}
-				
 			}
 			
 		}.runTaskLater(plugin, 100);
@@ -35,11 +50,12 @@ public class OnPlayerEnterBed implements Listener {
 
 			@Override
 			public void run() {
-				if (player.isSleeping() && config.getBoolean("allow-night-skip")) {
-					player.getWorld().setTime(1000);
-					System.out.println("should be day");
+				if (isSkipped) {
+					player.getWorld().setTime(0);
+					System.out.println("[NightSkip] " + "Night has been skipped.");
+					Bukkit.broadcastMessage("Night has been skipped.");
+					isSkipped = false;
 				}
-				
 			}
 			
 		}.runTaskLater(plugin, 102);
