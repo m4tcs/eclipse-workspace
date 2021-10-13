@@ -1,6 +1,6 @@
 name: NightSkip
 main: com.servebeer.quake.Main
-version: 1.0
+version: 1.1
 commands:
   nshelp:
     description: Displays a list of commands

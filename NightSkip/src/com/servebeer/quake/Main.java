@@ -28,7 +28,7 @@ public class Main extends JavaPlugin {
 	public void configRegister()
 	{
 		System.out.println("DEBUGGING: configRegister()");
-		if (config.getDouble("version") != 1.0)
+		if (config.getDouble("version") != 1.1)
 		{
 			System.out.println("Plugin outdated. Generating new config.yml.");
 			File f = new File(this.getDataFolder().getAbsolutePath()+"\\config.yml");
