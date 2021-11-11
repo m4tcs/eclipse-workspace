@@ -40,6 +40,7 @@ public class OnPlayerEnterBed implements Listener {
 			public void run() {
 				if (player.isSleeping() && config.getBoolean("allow-night-skip")) {
 					player.getWorld().setTime(23999);
+					player.getWorld().setWeatherDuration(0);
 					Bukkit.broadcastMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "[NightSkip] " + ChatColor.GOLD + "Night has been skipped.");
 				}
 			}
